@@ -32,4 +32,7 @@ dependencies {
     compile 'com.android.support:design:28.+'
     compile 'com.android.support:appcompat-v7:+'
     implementation 'com.android.support:recyclerview-v7:28.+'
+    compile 'org.jetbrains.anko:anko:0.10.5'
+    compile "org.jetbrains.anko:anko-recyclerview-v7:0.10.5"
+    compile "org.jetbrains.anko:anko-recyclerview-v7-coroutines:0.10.5"
 }

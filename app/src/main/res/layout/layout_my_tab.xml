@@ -7,10 +7,11 @@
     <widget.SlidingTabLayout
         android:id="@+id/my_sliding_tab"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         app:tl_indicator_color="@color/green"
         app:tl_indicator_height="4dp"
         app:tl_indicator_width="40dp"
+        app:tl_indicator_corner_radius="2dp"
         app:tl_textsize="14sp"
         app:tl_textSelectsize="18sp"
         app:tl_tab_space_equal="true"
@@ -18,6 +19,9 @@
         app:tl_textSelectColor="@color/black"
         app:tl_tab_padding="8dp"
         ></widget.SlidingTabLayout>
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cccccc"/>
     <android.support.v4.view.ViewPager
         android:id="@+id/my_viewpager"
         android:layout_width="match_parent"
